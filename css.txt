@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    background-color:#d3e0d7;
+    padding:20px;
+}
+.heading{
+    font-family: Roboto;
+    font-size:30px;
+    font-weight:bold;
+    margin-right:100px;
+}
+.top-container{
+    display:flex;
+    justify-content:space-between;
+}
+.input-title{
+    border-width:0px;
+    border-radius:5px;
+    width:100%;
+}
+.textarea-content{
+    border-width:0px;
+    border-radius:5px;
+    width:100%;
+    margin-top:10px;
+}
+.plus-container{
+    display:flex;
+}
+.plus-icon{
+    height:20px;
+    width:20px;
+    margin-left:10px;
+}
+.button-container{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.card-item-heading{
+    font-family: Roboto;
+    font-size:15px;
+    font-weight:bold;
+}
+.card-container{
+    padding:15px;
+}
+.card-item-content{
+    font-family: Roboto;
+    font-size:10px;
+}
+.card-item-tag{
+    color:#1e27d4;
+    background-color:#888df2;
+    font-family: Roboto;
+    font-style:italic;
+    border-radius:10px;
+    font-size:10px;
+    padding:4px;
+    width:auto;
+}
+.card-item-container{
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px grey;
+}
+.bottom-container{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.card-top-container{
+    display:flex;
+    justify-content:space-between;
+}
